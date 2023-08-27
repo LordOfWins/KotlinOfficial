@@ -1,4 +1,4 @@
-
+package tour
 
 fun main() {
     println("Hello, world!")    // Hello, world!
@@ -16,7 +16,7 @@ fun main() {
 //    String templates $로 변수의 저장된 문자열 값을 읽어 올 수 있음
     println("There are $customers customers")
 // There are 10 customers
-
+    
     println("There are ${customers + 1} customers")
 // There are 11 customers
 }
